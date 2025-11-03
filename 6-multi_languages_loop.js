@@ -1,6 +1,6 @@
 const statement = ["C is fun","Python is cool", "JavaScript is amazing"]
 
-for(const sentence of statement){
-  console.log(sentence);
+for(let i =0; i < statement.length; i++){
+  console.log(statement[i]);
   
 }
